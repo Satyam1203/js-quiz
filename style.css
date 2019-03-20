@@ -1,0 +1,105 @@
+body{
+    /*background: url(playpause_1-2-2.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;*/
+    background-color: powderblue;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+
+#float{
+    padding-left: 80%;
+}
+
+#quizpoint{
+  /*  width: 80%;
+    height:80%;
+    */border-radius: 35px 0 35px 0 ;
+    background: white;
+    padding : 25px; 
+    margin: 5%; 
+    align-self: center;
+} 
+
+#container_2{
+    width: 85%;
+    border-radius: 5px;
+    background: #0C6; 
+    margin : auto; 
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#options{
+    margin: auto;
+    margin-top: 20px; 
+    margin-left: 6%;
+    padding: 10px 10px 10px 40px;
+    line-height: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+div label span{
+    cursor: pointer;
+}
+
+#result{
+    text-align: center;
+    background-blend-mode: soft-light;
+}
+
+#controls{
+    margin-top: 50px;
+}
+
+#submit{
+    padding: 5px;
+    margin-top: 10px;
+    color: darkslategray;
+    font-weight: bold;
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    color: aliceblue;
+    background-color: black;
+}
+
+#btn1{
+   	 display: none; 
+    width: 30px;
+    height: 20px;
+    background-color: antiquewhite;
+    padding: 10px 25px;
+    margin: 35px;
+    margin-left: 10%;
+    border-left: 4px solid rgba(50,200,200,0.8);
+    border-bottom: 4px solid rgba(50,200,200,0.4); 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn2{
+    width: 30px;
+    height: 20px;
+    background-color: antiquewhite;
+    padding: 10px 25px;
+    margin: 35px; 
+    margin-left:10%;
+    border-right: 4px solid rgba(50,200,200,0.8);
+    border-bottom: 4px solid rgba(50,200,200,0.4); 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    
+    
+    
