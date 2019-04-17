@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Rubik');
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <title>FTF</title>
+    </head>
+    <body>
+        <p id="float">Number of Questions - <span id="que" ></span></p>
+        <p id="float">Attempted Questions - <span id="attempted" ></span></p>
+        <div id="quizpoint">
+            <div id="container">
+                <h1><a href="css.html"> QUIZ </a></h1>
+            
+            <div id="container_2">
+                <p id="question"></p>
+            </div>
+            
+            <div id="options">
+                <label><input type="radio" id="unc" name="choice" value="1"><span id="opt1"></span></label><br>
+                <label><input type="radio" name="choice" value="2"><span id="opt2"></span></label><br>
+                <label><input type="radio" name="choice" value="3"><span id="opt3"></span></label><br>
+                <label><input type="radio" name="choice" value="4"><span id="opt4"></span></label><br> 
+                <button id="submit" onclick="submitAnswer()">Save & Next</button>
+                
+            </div> 
+            <p><span id="tryme"> 
+            </span></p>
+            
+            <div id="controls">
+                <span id="btn1" onclick="lastQuestion()">Previous</span>
+                <span id="btn2" onclick="newQuestion()">Next</span>
+            </div>
+            
+            </div>
+            
+            <div id="result"></div>  
+        </div>
+        <script src="script.js">
+        </script>
+    </body>
+</html>
