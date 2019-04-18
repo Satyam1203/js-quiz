@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-        <style>
-            @import url('https://fonts.googleapis.com/css?family=Rubik');
-        </style>
-        <link rel="stylesheet" href="style.css">
-        <title>JS-Quiz</title>
-    </head>
-    <body>
-        <p id="float">Number of Questions - <span id="que" ></span></p>
-        <p id="float">Attempted Questions - <span id="attempted" ></span></p>
-        <div id="quizpoint">
-            <div id="container">
-                <h1>QUIZ</h1>
-            
-            <div id="container_2">
-                <p id="question"></p>
-            </div>
-            
-            <div id="options">
-                <label><input type="radio" id="unc" name="choice" value="1"><span id="opt1"></span></label><br>
-                <label><input type="radio" name="choice" value="2"><span id="opt2"></span></label><br>
-                <label><input type="radio" name="choice" value="3"><span id="opt3"></span></label><br>
-                <label><input type="radio" name="choice" value="4"><span id="opt4"></span></label><br> 
-                <button id="submit" onclick="submitAnswer()">Save & Next</button>
-                
-            </div> 
-            
-            
-            <div id="controls">
-                <span id="btn1" onclick="lastQuestion()">Previous</span>
-                <span id="btn2" onclick="newQuestion()">Next</span>
-            </div>
-            
-            </div>
-            
-            <div id="result"></div>  
-        </div>
-        <script src="script.js">
-        </script>
-    </body>
+<head>
+  <title>QUIZ LANDING</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <style>
+      body{
+        text-align:center;
+      }
+      .size{
+        margin:auto;
+        width:50%;
+      }
+      .fas{
+        color:red;
+      }
+      #footer{
+        background:rgb(145,145,145);
+        color:white;
+      }
+      .jumbotron{
+        margin-bottom:0px;
+      }
+  </style>
+</head>
+<body>
+    <div class="jumbotron">
+      <h1 class="display-4">QUIZ</h1>
+      <p class="lead">This is a simple quiz, just to test your basic skills.</p>
+      <hr class="my-4">
+      <div class="input-group mb-3 size">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Your name:</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <a class="btn btn-primary btn-lg" href="index1.html" role="button">Click to play</a>
+    </div>
+    
+    <footer id="footer">
+      Made with <i class="fas fa-heart"></i> by Satyam
+    </footer>
+    
+    <script>/*
+        document.querySelector("a").addEventListener("click",function (){
+          let txt = document.querySelector(".form-control").textContent;
+          document.querySelector("a").textContent = txt;
+        }
+    </script>
+    
+</body>
 </html>
